@@ -7,6 +7,7 @@
     <title>MXApp - App Lading page React Template</title>
 
     <!-- Fonts & Libs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/counter.css">
     <link rel="stylesheet" href="/css/features.css">
+    <link rel="stylesheet" href="/css/screenshot.css">
     <!------------->
 
     <link rel="icon" type="image/x-icon" href="images/Sem título.jpg">
@@ -37,7 +39,7 @@
                     <li class="nav-item"><a href="#home">HOME</a></li>
                     <li class="nav-item"><a href="#about">ABOUT</a></li>
                     <li class="nav-item"><a href="#features">FEATURES</a></li>
-                    <li class="nav-item"><a href="#">SCREENSHOT</a></li>
+                    <li class="nav-item"><a href="#screenshot">SCREENSHOT</a></li>
                     <li class="nav-item"><a href="#">TESTIMONIAL</a></li>
                     <li class="nav-item"><a href="#">PRICING</a></li>
                     <li class="nav-item"><a href="#">FAQ</a></li>
@@ -214,6 +216,68 @@
         </div><!-- features__container -->
     </section>
 
+    <section id="screenshot" class="section" style="margin: 5% 0 0;">
+        <div class="screenshot__container">
+            <h2 style="font-size: 2.25rem; margin:0 0 1rem;">App Screens</h2>
+            <hr style="margin:0 0 1.5rem; border-top: 0; height: 3px !important; background-color: #0d6efd; width: 5%;">
+            <p style="font-size: 20px; margin: 0 0 2.5rem; text-align: center; letter-spacing: 1px;">You can present
+                your app screens. It is all very easy!</p>
+
+            <div class="app-screenshot__container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/carrousel/01.jpg"></div>
+                        <div class="swiper-slide"><img src="images/carrousel/02.jpg"></div>
+                        <div class="swiper-slide"><img src="images/carrousel/03.jpg"></div>
+                        <div class="swiper-slide"><img src="images/carrousel/04.jpg"></div>
+                        <div class="swiper-slide"><img src="images/carrousel/05.jpg"></div>
+                        <div class="swiper-slide"><img src="images/carrousel/06.jpg"></div>
+                    </div><!-- swiper-wrapper -->
+
+                    <!-- navigators -->
+                    <div class="swiper-button-prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <!--------------->
+
+                </div><!-- swiper -->
+            </div><!-- app-screenshot__container -->
+        </div><!-- screnshot__container -->
+        <div class="screenshot__hero__container">
+            <div class="screenshot__hero__content">
+                <h2>How it's Works? Play And Watch!</h2>
+                <span id="span">
+                    <i class="fas fa-play"></i>
+                </span>
+                <p>VIEW PROMO</p>
+            </div><!-- hero__content -->
+            <div class="screenshot__background"></div>
+        </div><!-- hero__container -->
+        <div class="modal__container">
+            <div class="modal__backdrop"></div>
+            <div class="modal__video">
+                <iframe frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen tabindex="-1"
+                src="//www.youtube.com/embed/PMNnEEEacCg?
+                autoplay=1&cc_load_policy=1&controls=1&disablekb=
+                0&enablejsapi=0&fs=1&iv_load_policy=1&loop=0&rel=
+                0&showinfo=1&start=0&wmode=transparent&theme=dark
+                &mute=0"></iframe>
+                <div class="modal__icon">
+                    <i class="fa-thin fa-x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/screenshot/screens.js"></script>
 </body>
 
 </html>
