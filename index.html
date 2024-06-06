@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="/css/counter.css">
     <link rel="stylesheet" href="/css/features.css">
     <link rel="stylesheet" href="/css/screenshot.css">
+    <link rel="stylesheet" href="/css/testimonial.css">
+    <link rel="stylesheet" href="/css/pricing.css">
     <!------------->
 
     <link rel="icon" type="image/x-icon" href="images/Sem título.jpg">
@@ -40,7 +42,7 @@
                     <li class="nav-item"><a href="#about">ABOUT</a></li>
                     <li class="nav-item"><a href="#features">FEATURES</a></li>
                     <li class="nav-item"><a href="#screenshot">SCREENSHOT</a></li>
-                    <li class="nav-item"><a href="#">TESTIMONIAL</a></li>
+                    <li class="nav-item"><a href="#testimonial">TESTIMONIAL</a></li>
                     <li class="nav-item"><a href="#">PRICING</a></li>
                     <li class="nav-item"><a href="#">FAQ</a></li>
                     <li class="nav-item"><a href="#">CONTACT US</a></li>
@@ -261,23 +263,107 @@
         <div class="modal__container">
             <div class="modal__backdrop"></div>
             <div class="modal__video">
-                <iframe frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen tabindex="-1"
-                src="//www.youtube.com/embed/PMNnEEEacCg?
+                <iframe frameborder="0" allow="autoplay; encrypted-media;"
+                tabindex="-1" src="//www.youtube.com/embed/PMNnEEEacCg?
                 autoplay=1&cc_load_policy=1&controls=1&disablekb=
                 0&enablejsapi=0&fs=1&iv_load_policy=1&loop=0&rel=
                 0&showinfo=1&start=0&wmode=transparent&theme=dark
-                &mute=0"></iframe>
+                &mute=0" allowfullscreen></iframe>
                 <div class="modal__icon">
                     <i class="fa-thin fa-x"></i>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="testimonial" class="section">
+        <div class="testimonial__container">
+            <h2 style="font-size: 2.25rem; margin:0 0 1rem;">What Our Users Say’s</h2>
+            <hr style="margin:0 0 1.5rem; border-top: 0; height: 3px !important; background-color: #0d6efd; width: 5%;">
+            <p style="font-size: 20px; margin: 0 0 2.5rem; text-align: center; letter-spacing: 1px;">See what our happy
+                Customer say about app. We are proud to have our users.</p>
+
+            <div class="app-testimonial__container">
+                <div class="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial__box">
+                                <div class="testimonial__box__icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p>“Easy to use, reasonably priced simply dummy text of the printing and typesetting
+                                    industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.”
+                                </p>
+                                <img src="/images/carrousel/testimonial/client-sm-1.jpg"
+                                    style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
+                                <strong>Jay Shah</strong>
+                                <span>User from India</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__box">
+                                <div class="testimonial__box__icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p>“I am happy Working with printing and typesetting industry text of the printing and typesetting
+                                    industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.”
+                                </p>
+                                <img src="/images/carrousel/testimonial/client-sm-2.jpg"
+                                    style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
+                                <strong>Patrick Cary</strong>
+                                <span>User from USA</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__box">
+                                <div class="testimonial__box__icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p>“Only trying it out since a few days. But up to now excellent. Seems to work
+                                    flawlessly. priced simply dummy text of the printing and typesetting industry.”
+                                </p>
+                                <img src="/images/carrousel/testimonial/client-sm-3.jpg"
+                                    style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
+                                <strong>Dennis Jacques</strong>
+                                <span>User from Canada</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__box">
+                                <div class="testimonial__box__icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p>“I have used them twice now. Good rates, very efficient service and priced simply
+                                    dummy text of the printing and typesetting industry quidam interesset his et.
+                                    Excellent.”
+                                </p>
+                                <img src="/images/carrousel/testimonial/client-sm-4.jpg"
+                                    style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
+                                <strong>Chris Tom</strong>
+                                <span>User from UK</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- navigators -->
+                    <div class="swiper-button-prev2">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-button-next2">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+
+                    <div class="swiper-pagination2"></div>
+                    <!--------------->
+                </div><!-- swiper -->
+            </div><!-- app-testimonial__container -->
+        </div>
+    </section>
     
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/js/screenshot/screens.js"></script>
+    <script src="/JS/slides.js"></script>
+    <script src="/JS/modal.js"></script>
 </body>
 
 </html>

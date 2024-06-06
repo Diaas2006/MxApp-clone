@@ -57,6 +57,10 @@
     background-color: #cecece;
     color:#fafafa;
 }
+.swiper-pagination::before{
+    margin: 20px;
+}
+
 
 .swiper-button-prev::after,
 .swiper-button-next::after{
