@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/css/screenshot.css">
     <link rel="stylesheet" href="/css/testimonial.css">
     <link rel="stylesheet" href="/css/pricing.css">
+    <link rel="stylesheet" href="/css/download.css">
     <!------------->
 
     <link rel="icon" type="image/x-icon" href="images/Sem título.jpg">
@@ -69,7 +70,6 @@
             </div><!-- home__container__content -->
         </div><!-- home__container -->
     </section>
-
     <section id="about" class="section">
         <div class="about__container">
             <h2 style="font-size: 36px; margin:0 0 1rem;">About Our App</h2>
@@ -270,9 +270,9 @@
                 &mute=0" allowfullscreen></iframe>
                 <div class="modal__icon">
                     <i class="fa-thin fa-x"></i>
-                </div>
-            </div>
-        </div>
+                </div><!-- modal__icon -->
+            </div><!-- modal__video -->
+        </div><!-- modal__container -->
     </section>
 
     <section id="testimonial" class="section">
@@ -297,8 +297,8 @@
                                     style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
                                 <strong>Jay Shah</strong>
                                 <span>User from India</span>
-                            </div>
-                        </div>
+                            </div><!-- testimonial__box -->
+                        </div><!-- swiper-slides -->
                         <div class="swiper-slide">
                             <div class="testimonial__box">
                                 <div class="testimonial__box__icon">
@@ -312,8 +312,8 @@
                                     style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
                                 <strong>Patrick Cary</strong>
                                 <span>User from USA</span>
-                            </div>
-                        </div>
+                            </div><!-- testimonial__box -->
+                        </div><!-- swiper-slides -->
                         <div class="swiper-slide">
                             <div class="testimonial__box">
                                 <div class="testimonial__box__icon">
@@ -326,8 +326,8 @@
                                     style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
                                 <strong>Dennis Jacques</strong>
                                 <span>User from Canada</span>
-                            </div>
-                        </div>
+                            </div><!-- testimonial__box -->
+                        </div><!-- swiper-slides -->
                         <div class="swiper-slide">
                             <div class="testimonial__box">
                                 <div class="testimonial__box__icon">
@@ -341,9 +341,9 @@
                                     style="width: 60px; height: 60px; border-radius: 50%; margin: 1rem;">
                                 <strong>Chris Tom</strong>
                                 <span>User from UK</span>
-                            </div>
-                        </div>
-                    </div>
+                            </div><!-- testimonial__box -->
+                        </div><!-- swiper-slides -->
+                    </div><!-- swiper-wrapper -->
 
                     <!-- navigators -->
                     <div class="swiper-button-prev2">
@@ -352,12 +352,11 @@
                     <div class="swiper-button-next2">
                         <i class="fa fa-chevron-right"></i>
                     </div>
-
-                    <div class="swiper-pagination2"></div>
+                    <div class="swiper-pagination2">
                     <!--------------->
                 </div><!-- swiper -->
             </div><!-- app-testimonial__container -->
-        </div>
+        </div><!-- testimonial__container -->
     </section>
 
     <section id="pricing" class="section">
@@ -382,8 +381,8 @@
                                 <li><i class="fa fa-times"></i>24/7 Support</li>
                             </ul>
                             <a href="https://harnishdesign.net">START NOW</a>
-                        </div>
-                    </div>
+                        </div><!-- box__body -->
+                    </div><!-- pricing__content__box -->
                     <div class="pricing__content__box">
                         <div class="box__head">Advance</div>
                         <div class="box__body">
@@ -397,8 +396,8 @@
                                 <li><i class="fa fa-check"></i>24/7 Support</li>
                             </ul>
                             <a href="https://harnishdesign.net">START NOW</a>
-                        </div>
-                    </div>
+                        </div><!-- box__body -->
+                    </div><!-- pricing__content__box -->
                     <div class="pricing__content__box">
                         <div class="box__head" style="background-color: #0d6efd;">Standard</div>
                         <div class="box__body standard">
@@ -411,9 +410,9 @@
                                 <li><i class="fa fa-check"></i>Simple and Professional</li>
                                 <li><i class="fa fa-check"></i>24/7 Support</li>
                             </ul>
-                            <a href="https://harnishdesign.net" >START NOW</a>
-                        </div>
-                    </div>
+                            <a href="https://harnishdesign.net">START NOW</a>
+                        </div><!-- box__body -->
+                    </div><!-- pricing__content__box -->
                     <div class="pricing__content__box">
                         <div class="box__head">Premium</div>
                         <div class="box__body">
@@ -427,11 +426,25 @@
                                 <li><i class="fa fa-check"></i>24/7 Support</li>
                             </ul>
                             <a href="https://harnishdesign.net">START NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </div><!-- box__body -->
+                    </div><!-- pricing__content__box -->
+                </div><!-- w25 -->
+            </div><!-- pricing__content -->
+        </div><!-- pricing__container -->
+    </section>
+
+    <section id="download">
+        <div class="download__container">
+            <h2 style="font-size: 2.25rem; margin:0 0 1rem;">Get the App</h2>
+            <hr style="margin:0 0 1.5rem; border-top: 0; height: 4px !important; background-color: #ffffff; width: 5%;">
+            <p style="font-size: 1.25rem; letter-spacing: 1px; margin-bottom: 3rem !important;">Download our app!
+                Join over 500,000
+                people already using Our App.</p>
+            <div class="download__icons">
+                <a href=""><img src="images/app-store.png" alt="app store"></a>
+                <a href=""><img src="images/google-play-store.png" alt="google play"></a>
+            </div><!-- download__icons -->
+        </div><!-- download__container -->
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

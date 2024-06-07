@@ -1,0 +1,19 @@
+.download__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: url(/images/intro-bg-2.png) rgb(13, 52, 221);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    padding: 6rem 0 5rem;
+}
+
+.download__container p{
+    color: white;
+}
+
+.download__icons img{
+    padding: .5rem 1.5rem 0 0;
+}
