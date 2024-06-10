@@ -1,0 +1,15 @@
+.navbar-fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    animation:  navbar .55s ease-in-out;
+    z-index: 999;
+}
+
+@keyframes navbar{
+    from{top: -5%; opacity: 0;}
+    to{
+        top: 0; opacity: 1;
+    }
+}
